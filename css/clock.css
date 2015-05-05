@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+.ico {
+    background: url(../images/clock.png) no-repeat;
+    display: block;
+}
+.clock-body {
+    width: 750px;
+    height: 730px;
+    background-position: -202px -68px;
+    position: relative;
+    margin: auto;
+}
+.clock-body > .ico {
+    position: absolute;
+}
+.ico-hour {
+    width: 32px;
+    height: 164px;
+    background-position: -120px -556px;
+    left: 362px;
+    top: 217px;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari and Chrome */
+    -o-transform: rotate(0deg); /* Opera */
+    transform-origin: 16px 148px;
+    -ms-transform-origin: 16px 148px; /* IE 9 */
+    -webkit-transform-origin: 16px 148px; /* Safari and Chrome */
+    -o-transform-origin: 16px 148px; /* Opera */
+}
+.ico-minute {
+    width: 27px;
+    height: 220px;
+    background-position: -74px -498px;
+    left: 364px;
+    top: 159px;
+    transform-origin: 14px 206px;
+    -ms-transform-origin: 14px 206px; /* IE 9 */
+    -webkit-transform-origin: 14px 206px; /* Safari and Chrome */
+    -o-transform-origin: 14px 206px; /* Opera */
+}
+.ico-second {
+    width: 30px;
+    height: 322px;
+    background-position: -26px -464px;
+    left: 363px;
+    top: 125px;
+    transform-origin: 15px 240px;
+    -ms-transform-origin: 15px 240px; /* IE 9 */
+    -webkit-transform-origin: 15px 240px; /* Safari and Chrome */
+    -o-transform-origin: 15px 240px; /* Opera */
+}
+/*设置时间*/
+.setTime {
+    text-align: center;
+    margin-top: 10px;
+}
+.setTime input {
+    border-radius: 14px;
+    width: 50px;
+    text-align: center;
+    border-width: 1px;
+}
+.setTime .setSubmit {
+    border-radius: 5px;
+    width: 50px;
+    border-width: 1px;
+    background-color: #fff;
+    line-height: 24px;
+}
